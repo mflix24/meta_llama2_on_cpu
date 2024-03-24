@@ -7,6 +7,7 @@ logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
 
 list_of_files = [
+    "data/",
     "src/__init__.py",
     "src/run_local.py",
     "src/helper.py",
@@ -14,7 +15,10 @@ list_of_files = [
     "requirements.txt",
     "setup.py",
     "main.py",
+    "app.py",
     "research/trials.ipynb",
+    "templates/index.html",
+    "static/jquery.min.js"
 
 ]
 
